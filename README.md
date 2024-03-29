@@ -1,11 +1,7 @@
-# Crypto Hub
-
-Crypto Hub is a website that provides users with up-to-date information about various cryptocurrencies. Users can access real-time data, charts, and news related to different cryptocurrencies.
+# A Clone of Gemini (AI Chat Bot)
 
 ## Features
 
-- **Real-Time Data**: View real-time prices, market capitalization, volume, and other essential information for a wide range of cryptocurrencies.
-- **Interactive Charts**: Explore interactive charts to analyze the historical performance of cryptocurrencies over different time periods.
-- **News Updates**: Stay informed with the latest news articles and updates related to the cryptocurrency market.
-- **User-Friendly Interface**: Enjoy a clean and intuitive user interface designed to make navigating and accessing information effortless.
-- **Search Functionality**: Easily search for specific cryptocurrencies to quickly access their data and information.
+It will try its best to follow your instructions and complete your requests thoughtfully.  
+It will use its knowledge to answer your questions in a comprehensive and informative way, even if they are open ended, challenging, or strange.  
+It will generate different creative text formats, like poems, code, scripts, musical pieces, email, letters, etc. It will try its best to fulfill all your requirements.  
