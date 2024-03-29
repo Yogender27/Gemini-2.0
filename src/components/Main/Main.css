@@ -16,7 +16,7 @@
 }
 
 .main-container{
-    width: 900px; 
+    
     margin: auto;
     width: 100%;
 }
@@ -206,6 +206,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0;
         
     }
 
@@ -233,6 +234,23 @@
        
     
     }
+    .main-bottom .bottom-info{
+        font-size: 10px;
+        text-align: center;
+        font-weight: 300;
+        margin: 5px auto;
+        width: 100%;
+
+        padding-top: 4px;
+        padding-bottom: 2px;
+    
+    }
+
+    .main-bottom .icon{
+        width: 100%;
+    }
+
+    
     
 }
 

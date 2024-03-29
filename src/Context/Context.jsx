@@ -28,11 +28,23 @@ const ContextProvider = (props) => {
 
   const onSent = async (prompt) => {
     setShowResult(true)
-    setPrePrompt((prev)=>[...prev,Input])
     setLoading(true)
     setResultData("")
-    setRecentPrompt(Input)
-   const response = await runChat(Input);
+    let response;
+if (prompt!=undefined) {
+  response = await runChat(prompt)
+  setRecentPrompt(prompt)
+  
+}
+else{
+  setPrePrompt( prev=>[...prev ,Input])
+  setRecentPrompt(Input)
+  response = await runChat(Input)
+
+
+}
+
+    
    let responseArray = response.split("**")
    let newResponse = "";
    for (let i = 0; i < responseArray.length; i++) {

@@ -6,7 +6,9 @@ import { Context } from '../../Context/Context';
 
 function Main() {
 
-    const{onSent,RecentPrompt,showResult,loading,resultData,Input,setInput } = useContext(Context)
+    const{onSent,RecentPrompt,showResult,loading,resultData,Input,setInput, } = useContext(Context)
+
+    
   return (
     <div className='main'>
         <div className="nav">
@@ -67,7 +69,7 @@ function Main() {
             <div className="main-bottom">
                 <div className="search-box">
                     <input type="text" value={Input} onChange={(e)=>setInput(e.target.value)} placeholder='Enter a prompt here' />
-                    <div>
+                    <div className='icon'>
                     
                         <img src={assets.gallery_icon} alt="" />
                         <img src={assets.mic_icon} alt="" />
